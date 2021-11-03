@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="UrWf.tGX0;21P+WX5x$u">mySprite</variable><variable type="KIND_SpriteKind" id="H!kx/C@m_-F8wR+)sj9;">Player</variable><variable type="KIND_SpriteKind" id="^5iIdLd)5]%-9+A-%)Go">Projectile</variable><variable type="KIND_SpriteKind" id="Y1/fO,qLNPH9T4f0sNCP">Food</variable><variable type="KIND_SpriteKind" id="z^dUnTInL+^t!^_D_Z9q">Enemy</variable></variables><block type="pxt-on-start" id="ebwYS{]T([}llSmrC*]l" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="rY;ZQjpDg?n-+5ZYyp#`"><field name="VAR" id="UrWf.tGX0;21P+WX5x$u">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="8}h{BZY}[S!X_vfdJsNY"><value name="img"><shadow type="screen_image_picker" id="}?MeIS:a0(3rtg)b$iO2"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"}?MeIS:a0(3rtg)b$iO2"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id=":DF!,9{/19j2kg6WrQ,p"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="spritesaytext" id="@*eL%+KG[zF`mzq-j3P^"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="this"><block type="variables_get" id="ZqJ{k+}k*F=0=(]-9s:7"><field name="VAR" id="UrWf.tGX0;21P+WX5x$u">mySprite</field></block></value><value name="text"><shadow type="text" id="IN9Ke6xh|~DO*:A539YK"><field name="TEXT">:)</field></shadow></value></block></next></block></statement></block></xml>
